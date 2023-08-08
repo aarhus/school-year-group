@@ -1,0 +1,38 @@
+{
+  "name": "school-year-group",
+  "version": "0.0.1",
+  "description": "A really simple module to return the normal year groups for a given date of birth.",
+  "main": "index.js",
+  "builtEntry": "./build/index.js",
+  "private": false,
+  "keywords": [
+    "education",
+    "school",
+    "academic",
+    "year",
+    "age",
+    "date"
+  ],
+  "bugs": {
+    "url": "https://github.com/aarhus/school-year-group/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarhus/school-year-group"
+  },
+  "homepage": "https://github.com/aarhus/school-year-group",
+  "scripts": {
+    "build": "npx babel src -d ./build --copy-files",
+    "dev": "npx babel src -d ./build --copy-files --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Hampton (https://github.com/aarhus)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0"
+  }
+}
