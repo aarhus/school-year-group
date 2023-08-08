@@ -3,15 +3,17 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _gbEngland["default"];
+  }
+});
 Object.defineProperty(exports, "gbEngland", {
   enumerable: true,
   get: function get() {
-    return _gbEngland.gbEngland;
+    return _gbEngland["default"];
   }
 });
-var _gbEngland = require("./rules/gbEngland.js");
-var _default = {
-  gbEngland: gbEngland
-};
-exports["default"] = _default;
+var _gbEngland = _interopRequireDefault(require("./rules/gbEngland.js"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

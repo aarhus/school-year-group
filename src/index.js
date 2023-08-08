@@ -1,5 +1,3 @@
-export { gbEngland } from "./rules/gbEngland.js";
+import gbEngland  from "./rules/gbEngland.js";
 
-export default {
-    gbEngland
-}
+export { gbEngland as default, gbEngland };
