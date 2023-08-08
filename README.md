@@ -1,6 +1,6 @@
 # school-year-group
 
-This is a very simple module that given a DOB, it will calculate which year groups they will be in during their school life
+This is a very simple module that given a DOB, it will calculate which year groups they will be in during their school life. Currently only supporting English school years.
 
 ## Usage
 
