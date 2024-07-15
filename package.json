@@ -1,6 +1,6 @@
 {
   "name": "school-year-group",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "A really simple module to return the normal year groups for a given date of birth. Currently only supporting English school years.",
   "main": "index.js",
   "builtEntry": "./build/index.js",
