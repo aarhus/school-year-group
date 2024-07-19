@@ -2,9 +2,16 @@
 
 This is a very simple module that given a DOB, it will calculate which year groups they will be in during their school life. Currently only supporting English school years.
 
+## Installation
+
+```
+npm i school-year-group
+```
+
 ## Usage
 
-    import schoolYears from "school-year-group"
+```
+import schoolYears from "school-year-group"
     const dob = new Date("2010-05-07")
     const year = schoolYears(dob)
 
@@ -97,9 +104,7 @@ Example return value
       }
     ]
 
-
-
 const year = schoolYears(dob, true)  // will return the current year for the child for todays date
 
-
 const year = schoolYears(dob, "2024-01-01")  // will return the year group data for the child on the 1st Jan 2024
+```
